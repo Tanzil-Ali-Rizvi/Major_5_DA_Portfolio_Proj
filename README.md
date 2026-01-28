@@ -19,7 +19,7 @@ This repository contains five end-to-end data science projects designed to solve
 - **Problem:** Identifying the root cause of systemic delivery delays in the NY region.
 - **Key Insight:** Isolated a **$192k/mo recovery cost** at the JFK8 hub; proved the bottleneck was operational, not geographic.
 - **Tech:** Python, Regression Analysis, Multivariate Heatmaps.
-- [Explore Project](./Project-2-Amazon-Logistics)
+- [Explore Project](https://github.com/Tanzil-Ali-Rizvi/Major_5_DA_Portfolio_Proj/tree/main/Amazon%3A%20Last-Mile%20Logistics%20Bottleneck)
 
 ### 3. 🔄 SaaS: Predictive Churn & Retention Engine
 **Focus:** Machine Learning & Predictive Analytics
