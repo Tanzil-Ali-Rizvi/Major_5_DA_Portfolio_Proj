@@ -1,1 +1,20 @@
-Amazon Logistics: Supply Chain Bottleneck & Cost AnalysisExecutive SummaryThis project analyzes 15,000 delivery records to identify operational inefficiencies within a multi-hub logistics network. By utilizing multivariate regression, I successfully isolated a systemic bottleneck at the New_York_JFK8 hub that was independent of delivery distance or shipping priority. Addressing this bottleneck represents a $192,000 monthly reduction in recovery costs (refunds and support overhead).Business ChallengeThe logistics team noticed an increase in "Recovery Costs"—expenses incurred when deliveries miss their SLA (Service Level Agreement). The goal was to determine if these delays were caused by geographic factors (long-distance routes) or specific hub operations.Technical WorkflowData Extraction (SQL): Aggregated order volumes, actual vs. planned transit times, and recovery costs across five major hubs.Exploratory Data Analysis (Python): Visualized the distribution of delays and identified JFK8 as a significant outlier in both delay frequency and cost.Statistical Proof: Conducted an OLS Regression to quantify the impact of "Hub Location" vs. "Distance Miles" on delivery latency.Key Findings & ImpactThe Culprit: The JFK8 hub adds an average of 3.21 hours of delay per package ($p < 0.001$), regardless of distance.Distance Fallacy: Regression results showed that distance was not a significant predictor of delay ($p = 0.641$), proving the issue is internal to the warehouse, not the road.Financial ROI: By optimizing throughput at a single location (JFK8), the organization can save $2.3M annually.Project Structuredata/: Contains logistics_delivery_data.csv.notebooks/:01_logistics_eda.ipynb: Data cleaning and cost aggregation.02_regression_analysis.ipynb: The statistical model and proof.sql/: logistics_query.sql for data extraction.visuals/: High-res exports of the efficiency matrix and regression summary.
+# [Amazon] Logistics Bottleneck & Cost Optimization
+
+## 🎯 Business Problem
+Amazon's regional delivery data showed rising "recovery costs" (refunds and customer support) across five major hubs. The primary objective was to determine if delays were driven by geographic factors (distance) or systemic operational inefficiencies at specific hub locations.
+
+## 📊 Key Results
+- **Primary Bottleneck:** Identified **New York (JFK8)** as the critical operational outlier.
+- **Financial Impact:** Isolated a **$192,199 monthly loss** in recovery costs at the JFK8 hub alone.
+- **Statistical Proof:** Multivariate regression confirmed that **Hub Location**, not travel distance, was the significant driver of delays ($p < 0.001$).
+
+## 🛠️ Methodology
+1. **Feature Engineering:** Simulated 15,000 orders incorporating distance, priority (Standard/Express), and hub-specific latency factors.
+2. **Cost Logic:** Applied weighted financial penalties ($15/hr for standard, $25/hr for priority) to quantify the operational drain.
+3. **Multivariate Regression:** Utilized Ordinary Least Squares (OLS) to isolate the "Hub Effect" from the "Distance Effect."
+4. **Strategic Insight:** Provided data-backed justification to prioritize internal warehouse process optimization over expanding the delivery fleet.
+
+## 📂 Visuals
+The `/visuals` folder contains:
+- `hub_cost_efficiency_matrix.png`: A dual-plot visualization comparing total recovery costs and delay rates by hub.
+- `regression_summary.txt`: Detailed statistical output providing scientific proof of the findings.
