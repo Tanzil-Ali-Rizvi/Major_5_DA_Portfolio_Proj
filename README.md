@@ -12,7 +12,7 @@ This repository contains five end-to-end data science projects designed to solve
 - **Problem:** Does increasing preview length from 30s to 45s drive watch time?
 - **Key Insight:** Identified a **7.17% lift** in engagement ($p < 0.001$).
 - **Tech:** Python (SciPy), T-Tests, Power Analysis, Seaborn.
-- [Explore Project]([./Project-1-Netflix-AB-Test](https://github.com/Tanzil-Ali-Rizvi/Major_5_DA_Portfolio_Proj/tree/main/Netflix%3A%20Content%20Engagement%20A-by-B%20Test))
+- [Explore Project](https://github.com/Tanzil-Ali-Rizvi/Major_5_DA_Portfolio_Proj/tree/main/Netflix%3A%20Content%20Engagement%20A-by-B%20Test)
 
 ### 2. 📦 Amazon: Last-Mile Logistics Bottleneck
 **Focus:** Operational Efficiency & Financial Impact
