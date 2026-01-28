@@ -51,5 +51,5 @@ This repository contains five end-to-end data science projects designed to solve
 - **Tools:** Git, Jupyter, Docker
 
 ## 📫 Contact & Links
-- **LinkedIn:** [Insert Your Link]
+- **LinkedIn:** [https://www.linkedin.com/in/tanzil-ali-rizvi-7baa691a5/]
 - **Resume:** [Insert Link to PDF]
