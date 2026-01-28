@@ -33,14 +33,14 @@ This repository contains five end-to-end data science projects designed to solve
 - **Problem:** Unclear ROI across a $2.5M multi-channel ad spend (TikTok, Google, Podcasts).
 - **Key Insight:** Proved **Podcasts had the highest marginal ROI ($0.34)**, leading to a 15% budget reallocation recommendation.
 - **Tech:** Statsmodels (OLS Regression), Coefficient Analysis.
-- [Explore Project](./Project-4-Marketing-ROI)
+- [Explore Project](https://github.com/Tanzil-Ali-Rizvi/Major_5_DA_Portfolio_Proj/tree/main/Meta%3A%20Marketing%20Mix%20Modeling%20(MMM))
 
 ### 5. 🍎 Apple: Vision Pro 2 NLP Sentiment Pipeline
 **Focus:** Unstructured Data & Product Feedback
 - **Problem:** Analyzing 10,000+ Reddit comments to identify hardware "pain points" post-launch.
 - **Key Insight:** Used N-Gram analysis to isolate "Battery Weight" as the #1 driver of negative sentiment.
 - **Tech:** NLTK (VADER), Bigram Frequency, Word Clouds.
-- [Explore Project](./Project-5-Reddit-NLP)
+- [Explore Project](https://github.com/Tanzil-Ali-Rizvi/Major_5_DA_Portfolio_Proj/tree/main/Apple%3A%20Vision%20Pro%202%20NLP%20Sentiment%20Pipeline)
 
 ---
 
