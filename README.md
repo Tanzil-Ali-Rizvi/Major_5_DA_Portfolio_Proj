@@ -52,4 +52,4 @@ This repository contains five end-to-end data science projects designed to solve
 
 ## 📫 Contact & Links
 - **LinkedIn:** [Link](https://www.linkedin.com/in/tanzil-ali-rizvi-7baa691a5/)
-- **Resume:** [Insert Link to PDF]
+- **Resume:** [Link](https://drive.google.com/file/d/14qOABo0rtZh1UsMMSGd0PZrAl2BDt0pq/view?usp=sharing)
