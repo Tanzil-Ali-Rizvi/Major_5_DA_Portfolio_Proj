@@ -1,0 +1,6 @@
+text,sentiment_score,label
+The battery life on the Vision Pro 2 is a joke. Only 2 hours?!,0.5411,Positive
+Absolutely stunned by the new micro-OLED display. Best VR ever.,0.5434,Positive
+Too expensive. Apple is out of touch with reality.,0.0,Neutral
+The hand tracking is finally perfect. Massive improvement.,0.872,Positive
+Pass-through is still grainier than I expected for $3500.,0.0,Neutral
