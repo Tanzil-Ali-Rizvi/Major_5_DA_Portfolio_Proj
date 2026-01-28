@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            delay_hours   R-squared:                       0.813
+Model:                            OLS   Adj. R-squared:                  0.813
+Method:                 Least Squares   F-statistic:                 1.302e+04
+Date:                Wed, 28 Jan 2026   Prob (F-statistic):               0.00
+Time:                        13:11:08   Log-Likelihood:                -14107.
+No. Observations:               15000   AIC:                         2.823e+04
+Df Residuals:                   14994   BIC:                         2.827e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                -0.1667      0.015    -10.808      0.000      -0.197      -0.137
+distance_miles        0.0122      0.000     31.387      0.000       0.011       0.013
+hub_Chicago_ORD3     -0.0062      0.016     -0.391      0.696      -0.037       0.025
+hub_New_York_JFK8     3.2137      0.016    201.392      0.000       3.182       3.245
+hub_San_Jose_SJC2    -0.0028      0.016     -0.175      0.861      -0.034       0.029
+hub_Seattle_SEA1     -0.0003      0.016     -0.018      0.985      -0.032       0.031
+==============================================================================
+Omnibus:                     2779.871   Durbin-Watson:                   1.971
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            21776.684
+Skew:                           0.676   Prob(JB):                         0.00
+Kurtosis:                       8.746   Cond. No.                         165.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
