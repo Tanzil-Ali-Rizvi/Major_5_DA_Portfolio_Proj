@@ -26,7 +26,7 @@ This repository contains five end-to-end data science projects designed to solve
 - **Problem:** High churn rate among subscribers impacting Long-Term Value (LTV).
 - **Key Insight:** Built a Random Forest model with **82% Recall**; identified "Support Latency" as the primary churn driver.
 - **Tech:** Scikit-Learn, Random Forest, Confusion Matrix, Feature Importance.
-- [Explore Project](./Project-3-Churn-Prediction)
+- [Explore Project](https://github.com/Tanzil-Ali-Rizvi/Major_5_DA_Portfolio_Proj/tree/main/SaaS%3A%20Predictive%20Churn%20%26%20Retention%20Engine)
 
 ### 4. 💰 Meta: Marketing Mix Modeling (MMM)
 **Focus:** Marketing Science & Budget Optimization
