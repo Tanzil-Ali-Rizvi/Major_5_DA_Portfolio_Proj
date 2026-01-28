@@ -1,0 +1,7 @@
+Apple Vision Pro 2 Sentiment Analysis Summary
+============================================
+Total Comments Analyzed: 5
+Sentiment Breakdown:
+label
+Positive    3
+Neutral     2
